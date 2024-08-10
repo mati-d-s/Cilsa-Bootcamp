@@ -3,28 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ejercicio 0</title>
   </head>
   <body>
-    <div>
-      <h1>Formulario de Datos Personales</h1>
-      <p>Nombre:</p>
-      <input type="text" />
-      <br />
-      <p>Apellido:</p>
-      <input type="text" />
-      <br />
-      <p>Email:</p>
-      <input type="text" />
-      <br />
-      <p>Fecha de Nacimiento:</p>
-      <input type="date" />
-      <br />
-      <p>País de Residencia:</p>
-      <input type="text" />
-      <br /><br />
-      <button id="send">Enviar</button>
-    </div>
+   <div class="box">
+      <form action="" method="post">
+        <h1>Formulario de Datos Personales</h1>
+        <br><br>
+        <field0>
+          <div class="box-content">
+            <label for="first-name">Nombre:</label>
+            <br />
+            <input id="first-name" type="text" name="first-name" />
+            <br /><br />
+            <label for="last-name">Apellido: </label>
+            <br />
+            <input id="last-name" type="text" name="last-name" />
+            <br /><br />
+            <label for="email">Email:</label>
+            <br />
+            <input id="email" type="text" name="email" />
+            <br /><br />
+            <label for="dob">Fecha de Nacimiento:</label>
+            <br />
+            <input id="dob" type="date" name="dob" />
+            <br /><br />
+            <label for="country">País de Residencia:</label>
+            <br />
+            <input id="country" type="text" name="country" />
+            <br /><br />
+
+            <button type="submit"><strong>Enviar</strong></button>
+            <br />
+          </div>
+        </field0>
+      </form>
+    </div> 
+
   </body>
 </html>
