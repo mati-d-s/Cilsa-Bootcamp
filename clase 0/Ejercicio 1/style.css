@@ -74,6 +74,7 @@ button {
     text-decoration: none;
     background-color: coral;
     color: black;
+    cursor: pointer;
     right: 0.1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

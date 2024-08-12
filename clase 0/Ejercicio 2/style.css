@@ -79,5 +79,6 @@ button {
     background-color: #05be04;
     color: black;
     right: 0.1%;
+    cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
