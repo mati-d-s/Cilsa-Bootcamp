@@ -15,11 +15,11 @@
           <div class="box-content">
             <label for="first-name">Nombre:</label>
             <br />
-            <input id="first-name" type="text" name="first-name" />
+            <input id="first-name" type="text" name="first-name" pattern="[A-Za-z]{4}" minlength="4" maxlength="12"/>
             <br /><br />
             <label for="last-name">Apellido: </label>
             <br />
-            <input id="last-name" type="text" name="last-name" />
+            <input id="last-name" type="text" name="last-name" pattern="[A-Za-z]{4}" minlength="2" maxlength="20"/>
             <br /><br />
             <label for="email">Email:</label>
             <br />
@@ -27,7 +27,7 @@
             <br /><br />
             <label for="dob">Fecha de Nacimiento:</label>
             <br />
-            <input id="dob" type="date" name="dob" />
+            <input id="dob" type="date" name="dob"  min="1924-01-01"/>
             <br /><br />
             <label for="country">País de Residencia:</label>
             <br />

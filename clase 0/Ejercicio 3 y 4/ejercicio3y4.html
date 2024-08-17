@@ -15,11 +15,11 @@
           <div class="box-content">
             <label for="first-name">Nombre:</label>
             <br />
-            <input id="first-name" type="text" name="first-name"  placeholder="Escribe tu nombre" required/>
+            <input id="first-name" type="text" name="first-name"  placeholder="Escribe tu nombre" required pattern="[A-Za-z]{4}" minlength="4" maxlength="12"/>
             <br /><br />
             <label for="last-name">Apellido: </label>
             <br />
-            <input id="last-name" type="text" name="last-name"  placeholder="Escribe tu apellido" required/>
+            <input id="last-name" type="text" name="last-name"  placeholder="Escribe tu apellido" required pattern="[A-Za-z]{4}" minlength="2" maxlength="20"/>
             <br /><br />
             <label for="email">Email:</label>
             <br />
@@ -31,7 +31,7 @@
             <br /><br />
             <label for="country">País de Residencia:</label>
             <br />
-            <input id="country" type="text" name="country" required/>
+            <input id="country" type="text" name="country" placeholder="Escribe el país donde resides" required/>
             <br /><br />
             
             <button type="" id="cambiarContenido" class="btn">Activar estilo alto contraste</button>

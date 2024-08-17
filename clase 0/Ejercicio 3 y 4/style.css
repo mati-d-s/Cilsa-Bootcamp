@@ -201,3 +201,8 @@ h1{
     
     
 }
+
+
+.input-contraste::placeholder {
+    color: white; 
+}

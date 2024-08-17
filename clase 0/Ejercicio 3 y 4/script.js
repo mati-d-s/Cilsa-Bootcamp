@@ -8,11 +8,11 @@ document.getElementById('cambiarContenido').addEventListener('click', () => {
           <div class="box-content-contraste">
             <label class="label-contraste" for="first-name">Nombre:</label>
             <br />
-            <input class="input-contraste" id="first-name" type="text" name="first-name" placeholder="Escribe tu nombre" required  />
+            <input class="input-contraste" id="first-name" type="text" name="first-name" placeholder="Escribe tu nombre" required pattern="[A-Za-z]{4}" minlength="4" maxlength="12" />
             <br /><br />
             <label class="label-contraste" for="last-name">Apellido: </label>
             <br />
-            <input id="last-name" class="input-contraste" type="text" name="last-name" placeholder="Escribe tu apellido" required />
+            <input id="last-name" class="input-contraste" type="text" name="last-name" placeholder="Escribe tu apellido" required pattern="[A-Za-z]{4}" minlength="2" maxlength="20"/>
             <br /><br />
             <label class="label-contraste" for="email">Email:</label>
             <br />
@@ -20,11 +20,11 @@ document.getElementById('cambiarContenido').addEventListener('click', () => {
             <br /><br />
             <label class="label-contraste" for="dob">Fecha de Nacimiento:</label>
             <br />
-            <input class="input-contraste" id="dob" type="date" name="dob" />
+            <input class="input-contraste" id="dob" type="date" name="dob" min="1924-01-01"/>
             <br /><br />
             <label class="label-contraste" for="country">País de Residencia:</label>
             <br />
-            <input class="input-contraste" id="country" type="text" name="country" required/>
+            <input class="input-contraste" id="country" type="text" name="country" required placeholder="Escribe el país donde resides"/>
             <br /><br />
 
             <button type="" id="cambiarContenido" class="btn-sincontraste">Activar estilo sin contraste</button>
